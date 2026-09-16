@@ -21,7 +21,7 @@ We recover the physics TWO ways, each knowing NO coefficients up front:
 Both are given exactly the same data and the same structural knowledge.
 We compare: recovered mu, recovered k, and solution error vs the truth.
 
-Run:  .\.venv\Scripts\python.exe pinn_inverse_focused.py
+Run:  python pinn_inverse_focused.py
 Out:  pinn_inverse_focused_result.png
 ========================================================================
 """

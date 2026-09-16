@@ -7,7 +7,7 @@ Physics-Informed Neural Network behaves.
 
 HOW TO USE
   1. Edit the CONFIG block below (every knob is commented).
-  2. Run:   .\.venv\Scripts\python.exe pinn_playground.py
+  2. Run:   python pinn_playground.py
   3. Look at the saved plot  pinn_playground_result.png
   4. Change one thing, run again, see what happened. Repeat.
 

@@ -4,7 +4,7 @@ Sweep lambda_phys (physics_weight) and watch the PINN reconstruction,
 the recovered (mu, k), the solution error, and the leftover ODE residual.
 
 Self-contained; oscillating system (w0=20) so the slippage is visible.
-Run:  .\.venv\Scripts\python.exe slippage_weight_experiment.py
+Run:  python slippage_weight_experiment.py
 Out:  slippage_weight_result.png
 """
 import numpy as np

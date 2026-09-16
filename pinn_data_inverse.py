@@ -27,7 +27,7 @@ The one idea that unifies everything (including the playground):
   * demo 1 / data+physics:  BOTH on, mu known
   * demo 2 / inverse      :  BOTH on, mu is a trainable unknown
 
-Run:  .\.venv\Scripts\python.exe pinn_data_inverse.py
+Run:  python pinn_data_inverse.py
 Out:  pinn_data_inverse_result.png
 ========================================================================
 """
