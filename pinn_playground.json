@@ -1,0 +1,28 @@
+{
+  "mse_after_adam": 0.002028227143412788,
+  "mse": 1.834641096517076e-10,
+  "max_abs_err": 3.798380880097596e-05,
+  "final_loss": 1.0618568921927363e-06,
+  "cfg": {
+    "d": 2.0,
+    "w0": 20.0,
+    "t_max": 1.0,
+    "hidden": 64,
+    "layers": 4,
+    "activation": "tanh",
+    "epochs": 50000,
+    "lr": 0.001,
+    "n_collocation": 300,
+    "lr_decay": true,
+    "lbfgs_steps": 2000,
+    "hard_constraint": true,
+    "ic_weight": 0.01,
+    "device": "auto",
+    "live_plot": false,
+    "seed": 0
+  },
+  "env": {
+    "torch": "2.5.1+cu121",
+    "device": "cuda"
+  }
+}
