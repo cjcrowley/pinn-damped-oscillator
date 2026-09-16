@@ -9921,8 +9921,6 @@
   "env": {
     "torch": "2.5.1+cu121",
     "numpy": "2.4.6",
-    "device": "cuda",
-    "adam": 10000,
-    "lbfgs": 1500
+    "device": "cuda"
   }
 }

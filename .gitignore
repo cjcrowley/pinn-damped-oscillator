@@ -5,7 +5,6 @@
 __pycache__/
 *.pyc
 
-# Per-process intermediates from the split sweeps (see README)
-kscale/
-case2_kscale_K*.json
-s[0-9].json
+# Smoke-test output (PINN_QUICK=1)
+results_quick/
+results_quick_*.log

@@ -17,12 +17,12 @@
     "lbfgs_steps": 2000,
     "hard_constraint": true,
     "ic_weight": 0.01,
-    "device": "auto",
     "live_plot": false,
     "seed": 0
   },
   "env": {
     "torch": "2.5.1+cu121",
+    "numpy": "2.4.6",
     "device": "cuda"
   }
 }
